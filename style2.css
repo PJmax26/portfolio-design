@@ -1,0 +1,342 @@
+@media (max-width: 1400px) {
+    .header-bar{
+        background-color: red;
+    }
+
+    .hero-text{
+        margin-top: 10%;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-bar{
+        background-color: orange;
+    }
+
+    .hero-text{
+        width: 80%;
+        margin-top: 20%;
+        margin-left: 5px;
+    }
+
+    .hero-img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .hero-img img{
+        width: 25rem;
+    }
+
+    .CTA button{
+        width: 160px;
+        height: 50px;
+        padding: 3px;
+    }
+
+    .about-text{
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .about img{
+        width: 300px;
+    }
+
+    .about-img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1090px){
+    .header-bar{
+        background-color: green;
+    }
+
+    .hero-text{
+        margin-left: 50px;
+    }
+
+    #about{
+        margin-bottom: 10%;
+    }
+
+    .about-text{
+        margin-left: 30px;
+    }
+
+    .skills{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .skills-text{
+        width: 100%;
+    }
+
+    .skills-container{
+        width: 80%;
+    }
+
+    #skills{
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 1040px){
+    .header-bar{
+        background-color: blue;
+    }
+
+    .hero{
+        height: 80vh;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .hero-text{
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .about{
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .about-text{
+        margin-bottom: 10%;
+    }
+
+    .skills-text{
+        margin-top: 60%;
+    }
+
+    #services{
+        margin-top: 30%;
+    }
+
+    .projects .projects-row .projects-col{
+        width: 450px;
+    }
+}
+
+@media (max-width: 995px){
+    .header-bar{
+        background-color: yellow;
+    }
+
+    .about-text{
+        width: 100%;
+    }
+
+    .skills-text{
+        margin-top: 80%;
+    }
+
+    .skills-container{
+        width: 100%;
+    }
+
+    .service-text{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-text p{
+        width: 100%;
+    }
+
+    .projects .projects-row .projects-col{
+        width: 340px;
+    }
+
+    footer{
+        flex-direction: column
+    }
+
+    form{
+        width: 60%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 770px){
+    .header-bar{
+        background-color: indigo;
+    }
+
+    .hero-text{
+        width: 100%;
+        margin-top: 50%;
+        margin-bottom: 40%;
+    }
+
+    .hero-text::before{
+        top: 20%;
+        left: 10%;
+    }
+
+    .about-text{
+        width: 100%;
+        margin: 0;
+    }
+
+    #skills{
+        margin-top: 40%;
+    }
+
+    .skills-text, .skill-col{
+        width: 100%;
+    }
+
+    .skills-container{
+        flex-direction: column;
+    }
+
+    .service-text{
+        margin-top: 70%;
+    }
+
+    .projects .projects-row .projects-col{
+        width: 600px;
+    }
+
+    form{
+        width: 80%;
+    }
+}
+
+@media (max-width: 650px){
+    .header-bar{
+        background-color: violet;
+    }
+
+    .hero-text::before{
+        display: none;
+    }
+
+    .hero-text{
+        margin-top: 30rem;
+    }
+
+    .about-img{
+        margin-top: 20%;
+    }
+
+    .skills-text{
+        margin-top: 45rem;
+    }
+
+    .service-text{
+        margin-top: 35rem;
+    }
+}
+
+@media (max-width: 500px){
+    .header-bar{
+        background-color: red;
+    }
+
+    .about-img{
+        margin-top: 50%;
+    }
+
+    .about-text{
+        margin-top: 20%;
+    }
+
+    .skills-text{
+        margin-top: 80rem;
+    }
+
+    .service-text{
+        margin-top: 50rem;
+    }
+
+    .projects .projects-row .projects-col{
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 450px){
+    .header-bar{
+        background-color: aqua;
+    }
+
+    .logo{
+        font-size: 25px;
+        letter-spacing: 0;
+    }
+
+    .header-btn{
+        display: none;
+    }
+
+    .hero-text{
+        margin-left: 0;
+        margin-top: 10rem;
+        width: 100%;
+    }
+
+    .hero-text h2{
+        font-size: 25px;
+    }
+
+    .hero-text h1{
+        font-size: 30px;
+    }
+
+    .hero-text h3{
+        font-size: 20px;
+    }
+
+    .hero-text p, .about-text p, .skills-text p, .service-text p, .skills-container li{
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .CTA button{
+        width: 130px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .about-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-img img{
+        width: 300px;
+    }
+
+    .about-img{
+        margin-top: 5px;
+    }
+
+    .skills-text{
+        margin-top: 50rem;
+    }
+
+    .service-text{
+        margin-top: 35rem;
+    }
+
+    .projects .projects-row .projects-col{
+        width: 350px;
+    }
+
+    .footer-text{
+        width: 90%;
+    }
+
+    form{
+        width: 90%;
+    }
+}
